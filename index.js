@@ -85,7 +85,4 @@ bot.on('message', async message => {
   }
 }
 });
-
-require('./server')();
-const mySecret = process.env['TOKEN']
-bot.login(mySecret);
+bot.login("OTE1MjA2OTM5NjE1NTc2MDc1.YaYO4g.A5CZTwD35Qwq0ld6vWrdNrhoC4o");
